@@ -1,0 +1,220 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+
+%
+% Creator Peilin Li
+% Contact me via twitter/wechat: @pe1l1nl1
+% linkedin.com/peill and/or github/ppeill
+% Inspired by Peppa Pig 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+\usepackage{hyperref}
+\usepackage[left=0.40in,top=0.2in,right=0.50in,bottom=0.05in]{geometry} % Document margins
+\usepackage{fontawesome}
+\usepackage{times}
+\newcommand{\tab}[1]{\vspace{0.1cm}\hspace{.1\textwidth}\rlap{#1}}
+\newcommand{\itab}[1]{\vspace{0.1cm}\hspace{0.05cm}\rlap{#1}}
+% \begin{center}
+
+% \end{center}
+\name{Lydia Csaszar} % Your name 
+%\address{123 Pleasant Lane \\ City, State 12345} % Your secondary address (optional)
+\address{{\href{github.com/lcsaszar01}{github.com/lcsaszar01 $|$}} {\href{linkedin.com/in/lcsaszar01}{linkedin.com/in/lcsaszar01 $|$}}
+{\href{lcsaszar01.github.io}{lcsaszar01.github.io $|$}}
+{\href{mailto:lcsaszar01@saintmarys.edu}{lcsaszar01@saintmarys.edu $|$}}
+{\href{tel:(574)855-6807}{(574) 855-6807}}}
+%\address{ \faPhone(574) 855-6807} % Your address
+
+\begin{document} 
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+{\bf University of Notre Dame | Notre Dame, IN } \hfill {\em Expected Graduation December 2023} 
+\\{ \textit {Bachelor of Science, Dual Degree: Computer Engineering }} \newline
+\begin{tabular}{ @{} >{}l @{\hspace{6ex}} l }
+Key Courses:{{ }}\begin{tabular}{@{} >{}l @{\hspace{0ex}} l}
+     &\ Machine Learning, \ Signals \& Systems, \ Hardware for ML, \ Data Structures, \ Computer Architecture 
+\end{tabular} \\
+\end{tabular}
+
+{\bf Saint Mary's College | Notre Dame, IN} \hfill {\em May 2023} 
+\\ { \textit {Bachelor of Science, Dual Degree: Computing and Applied Mathematics}} \hfill \\
+%\begin{itemize}
+%    \item Academic/Merit-Based Awards: LeMan’s Scholarship (2018 - 2022) and Tuohy Family Scholarship (2019 - 2022)
+%\end{itemize}
+\begin{tabular}{ @{} >{}l @{\hspace{6ex}} l }
+Key Courses:{{ }\begin{tabular}{@{} >{}l @{\hspace{0ex}} l}
+     & \ Linear Algebra, \ Databases, \ Probability \& Statistics, \ Systems Analysis \& Design, \ Differential Equations II
+\end{tabular}} \\
+\end{tabular}
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Technical Skills}
+
+\begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
+Languages:{{ }\begin{tabular}{@{} >{}l @{\hspace{6ex}} l}
+     & Python, C/C++, R, SQL, MATLAB \end{tabular}} 
+& \\Software \& Tools:{{ }\begin{tabular}{@{} >{}l @{\hspace{6ex}} l}
+     & \\Experince with Solid Works and Auto CAD
+     & \\Experince with basic usage of Microsoft Azure and AWS business applications\end{tabular}} 
+\end{tabular}
+\end{rSection}
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{Work Experience}
+{\bf University of Notre Dame $|$ {\textit{Undergraduate Teachers Assistant}} | Notre Dame, IN} \hfill{\em January 2022 - Present} 
+\begin{itemize}
+    \item .
+    \item .
+\end{itemize}
+
+
+{\bf Computational Mechanics of Morphology at Notre Dame Lab $|$ {\textit{Undergraduate Researcher}} | Notre Dame, IN} \hfill{\em June 2022 - Present} 
+\begin{itemize}
+    \item Developed an open source MRI imaging pipeline to segment tissue classes of the cerebrum of non-human primates, cutting down segmentation time by 50\%.
+    \item Presented and published documentation on the function and potential future improvement of the program.
+\end{itemize}
+
+{\bf Saint Mary’s College Information Technology $|$ {\textit{ResNet Consultant Student Manager}} | Notre Dame, IN} \hfill {\em August 2021 - Present} 
+\begin{itemize}
+    \item Coordinated communication of issues and policies between ResNet, Helpdesk, Cluster Consultants, and the Director of \\ Technology Support Services. 
+    \item Simultaneously fulfilled all the duties required of a ResNet Consultant.
+\end{itemize}
+
+{\bf Saint Mary’s College Information Technology $|$ {\textit{Helpdesk Consultant}} | Notre Dame, IN
+} \hfill {\em May 2019 - Present} 
+\begin{itemize}
+    \item Answered the phone, replied to emails, and assisted walk-ins with troubleshooting solutions.
+    \item Created detailed tickets about issues that faculty and staff experienced for escalation and tracking purposes.
+    \item Assisted with the setup and distribution of college-owned laptops in response to mandatory work from home mobilization. 
+\end{itemize}
+
+{\bf Saint Mary’s College Information Technology $|$ \textit{ResNet Consultant} | Notre Dame, IN} \hfill {\em August 2019 - May 2021} 
+%\\{\textit{ResNet Consultant}}
+\begin{itemize}
+    \item Assisted students with their personally-owned computers to provide troubleshooting services and software assistance. 
+    \item Tracked existing records of issues and worked to follow up on communicating solutions to students.
+    \item Assisted students with the configuration of security settings for accounts and optimizing network settings on devices.
+\end{itemize}
+
+{\bf Mursix $|$ {\textit{Intern}} | Yorktown, IN} \hfill {\em June - August 2021} 
+%\\{\textit{Intern}}
+%\\ - 1 of 30 individuals selected out of 700+  for the TechPoint Xtern program
+\begin{itemize}
+    \item Designed and 3D printed a working prototype assembly tool using CAD that reduced hand assembly time from three minutes to twenty seconds.
+    \item Performed inventory database cleanup, reducing the memory utilized by 25\%.
+    \item Completed twenty computer hardware enhancements, and rebuilt existing computers. It boosted computer hardware efficiency by removing out-of-date hardware under supply chain stress, saving the company thousands of dollars by reusing hardware and using off-the-shelf parts.
+    %\item Consulted on the special projects team that concentrated on projects from business startup contracts.
+\end{itemize}
+
+%\\ - Engaged in community outreach by assisting with an IoT camp and hosted a talk with the Nappanee robotics club about STEM majors/career paths 
+%\\ - Explored the tech industry though TedTalk-style sessions to expand my knowledge base by learning from industry professionals
+
+{\bf University of Notre Dame Data Structures Preternship $|$ {\textit{Software Engineer}} | Notre Dame, IN} \hfill{\em Feb. - May 2021} \begin{itemize}
+    \item Developed a Proof of Concept scheduler to queue and graph the data of small scale data sets. Utilizing the AWS environment, we improved automated analysis of small data sets by 10\%.
+\end{itemize}
+
+
+%{\bf Saint Mary’s College Information Technology | Notre Dame, IN
+%} \hfill {\em September 2018 - May 2019} 
+%\\{\textit{Cluster Consultant}}
+%\\ - Maintained printers by keeping paper stocked and loading fresh toner.
+%\\ - Kept work spaces clean by clearing trash and pushing in chairs.
+
+%{\bf Advanced Custom Homes and Remodeling | Osceola, IN} %\hfill {\em September 2017 - May 2018} 
+%\\{\textit{Administrative Intern}}
+%\\- Filed paid invoice paperwork so the company had a %digital record for finances.
+%\\- Digitized record-keeping to reduce the space of the paper files in storage.
+
+
+\end{rSection}
+
+% \begin{rSection}{Carrier Objective}
+%  To work for an organization which provides me the opportunity to improve my skills and knowledge to grow along with the organization objective.
+% \end{rSection}
+%--------------------------------------------------------------------------------
+%    Projects And Seminars
+%-----------------------------------------------------------------------------------------------
+\newpage
+\begin{rSection}{Projects} %and Presentations}
+
+{\bf IoT Enabled Smart Home Project} \hfill {\em Summer 2020 - January 2021} 
+\\{\textit{Designer \& Project Coordinator}}
+\\- Designed IoT enabled home, taking into consideration building infrastructure and client's desired access points to wired connection.
+\\ - Implemented server rack to manage all IoT within home
+\\- Utilized EERO Wi-Fi 5 mesh system to sync with Google Nest Secure Hub managing 25+ devices and home security utilities. 
+\\- Supervised and coordinated with internet service provider and contractors to install network cabling 
+
+%{\bf Saint Mary’s College | Notre Dame, IN} \hfill {\em September 2021} 
+%\\{\textit{STEM Fall Poster Day - Internship Presentation}}
+%\\- TechPoint Class of 2021 Experience - Muncie Division
+%\\ - Presented on opportunities for STEM majors to work in the Indiana tech sector and discussed key policy shifts in Indiana's view of tech that will shape its 10 year job and economic growth vision. 
+
+%{\bf Saint Mary’s College | Notre Dame, IN} \hfill {\em September 2019} 
+%\\{\textit{STEM Fall Poster Day - Work Experience Presentation}}
+%\\- A Summer at Saint Mary’s Helpdesk
+%\\ - Presented on opportunities for students to gain IT experience and problem solving skills by working for the IT department. Highlighted how upcoming software would allow for remote connection help decreasing problem resolution turn around time by 15\%
+
+\end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	Extracurricular Section
+
+%----------------------------------------------------------------------------------------
+%\begin{rSection}{CAMPUS LEADERSHIP AND INVOLVEMENT}
+
+
+%{\bf Society of Women Engineering | Saint Mary’s College
+%} \hfill {\em } 
+%\\{\textit{Member | Fall 2019 - Present}}
+
+%{\bf Math Club | Saint Mary’s College} \hfill {\em} 
+%\\{\textit{Outreach Officer | Spring 2022-Spring 2023}}
+%\\{\textit{Vice President | Spring 2021 - Spring 2022}}
+%\\{\textit{Member | Fall 2020 - Present}}
+%\\ - Co-chaired on the design for the annual club shirt
+%\\ - Designed the annual door decorations
+
+%{\bf Disney Club | Saint Mary’s College} \hfill {\em} 
+%\\{\textit{Member | Fall 2020 - Present}}
+
+%{\bf Commuters Club | Saint Mary’s College
+%} \hfill {\em} 
+%\\{\textit{Member | Fall 2020 - Present}}
+%
+%\end{rSection}
+
+
+%\begin{rSection}{Award}
+%- First Prize\\
+%- Second Prize\\
+%- Third Prize\\
+%\end{rSection}
+
+%	EXAMPLE SECTION
+%----------------------------------------------------------------------------------------
+
+
+%----------------------------------------------------------------------------------------
+% Extra Curricular
+%----------------------------------------------------------------------------------------
+
+\end{document}
